@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/graph_home"
+    app:startDestination="@id/fragment_home">
+
+  <fragment
+      android:id="@+id/fragment_home"
+      android:name="net.tatuas.visiv1.feature.home.ui.HomeFragment" />
+
+  <fragment
+      android:id="@+id/fragment_setting"
+      android:name="net.tatuas.visiv1.feature.setting.ui.SettingFragment" />
+
+  <dialog
+      android:id="@+id/dialog_campaign_one"
+      android:name="net.tatuas.visiv1.feature.campaign.ui.CampaignOneDialog" />
+
+</navigation>
